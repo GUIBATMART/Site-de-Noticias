@@ -65,7 +65,6 @@ body.brasil #navegacao a#brasil,
 body.internacional #navegacao a#internacional,
 body.fotos #navegacao a#fotos,
 body.economia #navegacao a#economia,
-body.saude #navegacao a#saude,
 body.ciencia #navegacao a#ciencia{
     color: #fff;
     background: #de003e;
@@ -218,13 +217,10 @@ h3{
         width: 100%;
         
     }
-    
-    #navegacao{
-        font-size: 80%;
-    }
 
     #topo{
-        font-size: 50%;
+        font-size:50%;
+        
     }
 
     #container{
