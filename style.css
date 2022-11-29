@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #fff url(./img/fundo.png) repeat-x;
+    background: url(./img/fundo.png) repeat-x;
 }
 
 #container{
@@ -210,4 +210,29 @@ h3{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+}
+
+@media(max-width:450px){
+    body{
+        background: none;
+        width: 100%;
+        
+    }
+
+    #topo{
+        font-size: 50%;
+    }
+
+    #container{
+        background:  url(./img/fundo.png) repeat-x;
+        width: 100%;
+        float: right;
+    }
+
+    #primario, #secundario, #lateral, #rodape{
+        display:contents;  
+    }
+
+    
+
 }
